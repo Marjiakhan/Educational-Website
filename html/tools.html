@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Tools</title>
+  <link rel="stylesheet" href="/CSS/tools.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Learning Tools</h1>
+    <p>
+      I'm a paragraph. Click here to add your own text and edit me. It’s easy. 
+      Just click “Edit Text” or double click me to add your own content and make 
+      changes to the font.
+    </p>
+
+    <div class="table-container">
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search 'Files & Folders'..." autocomplete="off">
+        <ul id="suggestions"></ul>
+      </div>
+
+      <table id="fileTable">
+        <thead>
+          <tr>
+            <th><input type="checkbox"></th>
+            <th>Item name</th>
+            <th>Last updated</th>
+            <th>Views</th>
+            <th>Favorites</th>
+            <th>Contributors</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="checkbox"></td>
+            <td data-label="Item name"><img src="https://img.icons8.com/ios-filled/20/000000/folder.png"/>Course Catalog</td>
+            <td data-label="Last updated">Oct 18, 2022</td>
+            <td data-label="Views">12</td>
+            <td data-label="Favorites"><span class="star">&#9734;</span> 0</td>
+            <td data-label="Contributors"><span class="avatar"></span> Member</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox"></td>
+            <td data-label="Item name"><img src="https://img.icons8.com/ios-filled/20/000000/folder.png"/>Academic Programs</td>
+            <td data-label="Last updated">Oct 18, 2022</td>
+            <td data-label="Views">5</td>
+            <td data-label="Favorites"><span class="star">&#9734;</span> 0</td>
+            <td data-label="Contributors"><span class="avatar"></span> Member</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="/JS/tools.js"></script>
+</body>
+</html>
